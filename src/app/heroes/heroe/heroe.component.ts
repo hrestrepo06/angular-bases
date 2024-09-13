@@ -26,6 +26,10 @@ export class HeroeComponent {
     this.age = 25;
   }
 
+  resetForm(): void {
+    this.age = 10;
+  }
+
 
 
 }
